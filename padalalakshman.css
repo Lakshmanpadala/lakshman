@@ -1,11 +1,9 @@
-/* Reset some default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* Add background image to the header */
 header {
     background-image: url("background..jpg");
     background-color: #07252d;
@@ -17,7 +15,6 @@ header {
     padding: 40px 0;
 }
 
-/* Style the navigation bar */
 nav ul {
     list-style: none;
     display: flex;
@@ -51,7 +48,6 @@ nav a:hover {
     align-items: center;
 }
 
-/* Style the image */
 .header-content img {
     margin-top:9%;
     width: 200px;
@@ -70,12 +66,12 @@ nav a:hover {
     font-size: medium;
     color:aqua; 
 }
-/* Add a subtle animation to the header content */
+
 .header-content {
     animation: fadeIn 1s ease;
 }
 
-/* Define a @keyframes animation */
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -240,9 +236,9 @@ nav ul.show-mobile-menu li {
     transition: 1s;
 }
 .blink:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
 
 }
 .footer:hover{
-    transform: scale(1.3);
+    transform: scale(1.1);
 }
